@@ -9,10 +9,11 @@ public class GCD {
 		x = scan.nextInt();
 		y = scan.nextInt();
 		for(int i = 1; i <= x && i <=y; i++){
-         if(x%i==0 && y%i==0)
-             gcd = i;
+         		if(x%i==0 && y%i==0){
+             			gcd = i;
+			}
+	 		System.out.println("GCD of "+x+" and "+y+" is: "+gcd);
 		}
-	 System.out.println("GCD of "+x+" and "+y+" is: "+gcd);
 	}
 }
 
